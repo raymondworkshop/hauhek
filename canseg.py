@@ -1,13 +1,15 @@
 # -*- coding: utf-8 -*-
-# curl cann't support unicode -> chinese 
-#from flask import Flask
-#from flask_restful import reqparse, abort, Api, Resource
 
-#app = Flask(__name__)
-#api = Api(app)
+# curl cann't support unicode -> chinese
+""" 
+from flask import Flask
+from flask_restful import reqparse, abort, Api, Resource
 
-import timeit
+app = Flask(__name__)
+api = Api(app)
+"""
 
+#import timeit
 
 import argparse
 parser = argparse.ArgumentParser()
@@ -15,10 +17,10 @@ parser.add_argument('query', help="python canseg.py query='呢幾日天氣成日
 #parser.add_argument('print', help)
 args = parser.parse_args()
 
-#import jieba_fast as jieba
-import jieba
+import jieba_fast as jieba
+#import jieba
 
-#jieba.load_userdict("./data/dict.txt")
+jieba.load_userdict("./data/dict.txt")
 
 """
 #parse argument
@@ -65,8 +67,7 @@ def segmentation():
 
     #return output
 
-print(timeit.timeit(segmentation, number=1))
-
+#print(timeit.timeit(segmentation, number=1))
 
 if __name__ == '__main__':
    
@@ -81,8 +82,7 @@ if __name__ == '__main__':
         words = jieba.cut(sents[i])
         print('-'.join(words) + '\n')
     """
-
-    #sent = "呢幾日天氣成日變，你要小心保重身體。"
+    
     segmentation()
     
     #app.run(debug=True)

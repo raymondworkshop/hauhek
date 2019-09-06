@@ -1,14 +1,5 @@
 #### One cantonese word segmentation tool
 
-> usage: canseg.py [-h] query  
->    
-> positional arguments:    
->  query       python canseg.py query='呢幾日天氣成日變，你要小心保重身體' 
->      
-> optional arguments:   
->    -h, --help  show this help message and exit   
-
->
 > for example:   
 > python canseg.py query="呢幾日天氣成日變，你要小心保重身體。"    
 >      

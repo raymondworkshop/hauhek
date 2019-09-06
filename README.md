@@ -1,6 +1,6 @@
 #### One cantonese word segmentation tool
 
-> for example:   
+for example:   
 > python canseg.py query="呢幾日天氣成日變，你要小心保重身體。"    
 >      
 > {'query': 'query=呢幾日天氣成日變，你要小心保重身體。',    

@@ -34,7 +34,7 @@ class Segmentation(Resource):
 api.add_resource(Segmentation, '/')
 
 if __name__ == '__main__':
-    """
+    
     sents = ["呢幾日天氣成日變，你要小心保重身體。",
              "呢段時間過得順唔順吖？做嘢好辛苦嘞？",
              "叔叔，唔該你送俾我嘅禮物，我好中意。",
@@ -44,5 +44,5 @@ if __name__ == '__main__':
     for i in range(len(sents)):
         words = jieba.cut(sents[i])
         print('-'.join(words) + '\n')
-    """
-    app.run(debug=True)
+    
+    #app.run(debug=True)

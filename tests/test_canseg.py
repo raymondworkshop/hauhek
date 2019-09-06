@@ -3,7 +3,7 @@ import pytest
 import canseg
 
 def test_canseq(sent):
-    assert 
+    assert true
 
 
 

@@ -1,4 +1,4 @@
-#### canseg - One cantonese word segmentation tool, which is fast than jieba and more accuracy in cantonese
+#### canseg - One cantonese word segmentation tool, which is faster than jieba and more accuracy in cantonese
 
 for example:   
 > python canseg.py query="呢幾日天氣成日變，你要小心保重身體。"   

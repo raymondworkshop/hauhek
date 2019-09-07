@@ -1,4 +1,4 @@
-#### hauhek - One Cantonese word segmentation, which has higher accuracy and faster than [jieba](https://github.com/fxsjy/jieba) for Cantonese
+#### hauhek  - ["口吃"] 更快更好的廣東話分詞, 一些靈感來自 jieba and pycantonese
 
 Usage:  
 > python hauhek.py query="呢幾日天氣成日變，你要小心保重身體。"   

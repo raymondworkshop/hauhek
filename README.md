@@ -38,4 +38,3 @@ output by __jieba__:
 
 #### TODO - More convenient to use 
    
-####  Copyright (c) 2019 [HSU](https://dlc.hsu.edu.hk/)

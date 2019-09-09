@@ -1,5 +1,9 @@
 #### hauhek - ["口吃"]  - A faster and higher accuracy word segmentation for cantonese, some ideas and sources are from jieba and pycantonese
 
+#### TODO 
+-  algorithms
+- More convenient to use 
+
 Usage:  
 > python hauhek.py query="呢幾日天氣成日變，你要小心保重身體。"   
 >    
@@ -36,5 +40,5 @@ output by __jieba__:
     
 > running time： **0.8588442**  
 
-#### TODO - More convenient to use 
+
    

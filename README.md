@@ -1,7 +1,6 @@
 #### hauhek - ["口吃"]  - A faster and higher accuracy word segmentation for cantonese, some ideas and sources are from jieba and pycantonese
 
 #### TODO 
--  algorithms - try to use deep learning in cantonese
 - More convenient to use 
 
 Usage:  

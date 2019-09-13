@@ -1,4 +1,4 @@
-#### hauhek - ["口吃"]  - A faster and higher accuracy word segmentation for cantonese, some ideas and sources are from jieba and pycantonese
+#### hauhek - ["口吃"]  - A faster and higher accuracy word segmentation for cantonese, where some ideas and sources are from jieba and pycantonese
 
 #### TODO 
 - More convenient to use 

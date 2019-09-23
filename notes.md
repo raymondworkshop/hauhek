@@ -5,4 +5,4 @@
 #### core code from jieba-fast 
 
 #### deploy using flask 
- > $env:FLASK_APP="canseg.py"
+ > $env:FLASK_APP="hauhek.py"

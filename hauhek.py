@@ -63,7 +63,7 @@ def segmentation():
     #JSON object
     output = {'query': user_query, 'output': _output}
 
-    print(output)
+    print(_output)
 
     #return output
 

@@ -4,6 +4,9 @@
 - More convenient to use 
 
 Usage:  
+> installation: pip install -r requirements.txt
+> 
+> run:
 > python hauhek.py query="呢幾日天氣成日變，你要小心保重身體。"   
 >    
 > {       
